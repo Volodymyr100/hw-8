@@ -1,0 +1,43 @@
+.smm-list {
+    display: flex;
+    padding-left: 32px;
+}
+
+.smm-list--no-padding{
+    padding-left: 0px;
+}
+
+.smm-list__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.smm-list__img-cover {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.smm-list__img-cover--footer {
+        background-color: rgba(255, 255, 255, 0.1);
+}
+
+.smm-list__img-cover:hover .smm-list__icon {
+    fill: var(--primary-color);
+    cursor: pointer;
+}
+
+.smm-list__img-cover:hover {
+    background-color: var(--mark-color);
+}
+
+.smm-list__icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--smm-icon);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,0 +1,28 @@
+.closebutton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    
+    width: 30px;
+    height: 30px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.closebutton__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+
+    width: 50%;
+    height: 50%;
+}
+
+.closebutton__img:hover {
+    fill: var(--mark-color);
+}

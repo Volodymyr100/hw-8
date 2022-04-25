@@ -1,0 +1,49 @@
+.footer {
+    background-color: #2f303a;
+    color: var(--primary-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__adress {
+    margin-right: 70px;
+}
+
+.adress__real {
+    display: block;
+    margin-top: 20px;
+}
+
+.adres__digital {
+    display: block;
+    margin-top: 9px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+    color: var(--primary-color);
+    font-style: normal;
+}
+
+.footer__block {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.footer__smm {
+    margin-right: 93px;
+}
+
+.footer__email {
+    width: 100%;
+    height: 100%;
+}
+
+.footer__send-img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 28px;
+    width: 24px;
+    height: 24px;
+}

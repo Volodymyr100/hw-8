@@ -1,0 +1,42 @@
+.features {
+    padding-top: 94px;
+}
+
+.features__list {
+    display: flex;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.features__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features__item {
+    width: 270px;
+}
+
+.features__img {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    height: 120px;
+    width: 270px;
+    padding: 25px;
+}
+
+.features__header {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.features__description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
